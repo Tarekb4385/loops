@@ -27,6 +27,21 @@
             // numbers divisible by 3 print BEEP instead
             // numbers divisible by 5 print BOOP instead
             // numbers divisible by both 3 and 5 print BEEPBOOP instead
+var num = 1;
+while(num <= 30){
+  
+  if (num % 3 == 0 && num % 5 == 0){
+    console.log("BEEPBOOP");
+  } else if(num % 3 == 0) {
+    console.log("BEEP");
+  } else if (num % 5 == 0) {
+    console.log("BOOP");
+  } else {
+    console.log(num);
+  }
+  
+  num++;
+}
 
             
 
